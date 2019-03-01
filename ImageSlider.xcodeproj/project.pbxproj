@@ -14,6 +14,7 @@
 		16DFDE972229378800BF5B0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DFDE952229378800BF5B0E /* LaunchScreen.storyboard */; };
 		16DFDEA22229378800BF5B0E /* ImageSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DFDEA12229378800BF5B0E /* ImageSliderTests.swift */; };
 		16DFDEAD2229378800BF5B0E /* ImageSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DFDEAC2229378800BF5B0E /* ImageSliderUITests.swift */; };
+		16DFDEBB2229384300BF5B0E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DFDEBA2229384300BF5B0E /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		16DFDEA82229378800BF5B0E /* ImageSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DFDEAC2229378800BF5B0E /* ImageSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderUITests.swift; sourceTree = "<group>"; };
 		16DFDEAE2229378800BF5B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DFDEBA2229384300BF5B0E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				16DFDE932229378800BF5B0E /* Assets.xcassets */,
 				16DFDE952229378800BF5B0E /* LaunchScreen.storyboard */,
 				16DFDE982229378800BF5B0E /* Info.plist */,
+				16DFDEBA2229384300BF5B0E /* CustomCollectionViewCell.swift */,
 			);
 			path = ImageSlider;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16DFDE8F2229378600BF5B0E /* ViewController.swift in Sources */,
+				16DFDEBB2229384300BF5B0E /* CustomCollectionViewCell.swift in Sources */,
 				16DFDE8D2229378600BF5B0E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2F5MW64QA;
 				INFOPLIST_FILE = ImageSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2F5MW64QA;
 				INFOPLIST_FILE = ImageSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
